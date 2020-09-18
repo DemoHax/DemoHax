@@ -29,6 +29,8 @@ public abstract class ScreenMixin
 	{
 		if(toHud)
 			return;
+
+
 		
 		ChatMessageC2SPacket packet = new ChatMessageC2SPacket(message);
 		WurstClient.MC.getNetworkHandler().sendPacket(packet);

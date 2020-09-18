@@ -330,7 +330,7 @@ public final class AltManagerScreen extends Screen
 			
 			this.list = list;
 		}
-		
+
 		@Override
 		protected boolean isSelectedItem(int id)
 		{

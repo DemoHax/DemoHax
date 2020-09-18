@@ -46,7 +46,7 @@ public final class WurstUpdater implements UpdateListener
 	
 	public void checkForUpdates()
 	{
-		Version currentVersion = new Version(WurstClient.VERSION);
+		Version currentVersion = new Version("555");
 		Version latestVersion = null;
 		
 		try
